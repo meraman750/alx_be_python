@@ -1,11 +1,10 @@
 current_weather = str(input("What's the weather like today? (sunny/rainy/cold): "))
-match current_weather:
-	case "sunny":
+if current_weather == "sunny":
 		print("Wear a t-shirt and sunglasses.")
-	case "rain":
+elif current_weather == "rain":
 		print("Don't forget your umbrella and a raincoat.")
-	case "cold":
+elif current_weather ==  "cold":
 		print("Make sure to wear a warm coat and a scarf.")
-	case _:
+else:
 		print("Sorry, I don't have recommendations for this weather.")
     
