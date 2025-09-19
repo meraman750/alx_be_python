@@ -1,4 +1,4 @@
-current_weather = str(input("What's the weather like today? (sunny/rain/cold):"))
+current_weather = str(input("What's the weather like today? (sunny/rainy/cold): "))
 match current_weather:
 	case "sunny":
 		print("Wear a t-shirt and sunglasses.")
