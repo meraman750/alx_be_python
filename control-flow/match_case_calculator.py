@@ -1,6 +1,6 @@
 num1 = int(input("Enter the first number: "))
 num2 = int(input("Enter the second number: "))
-operation = (input("Choose the opertaion (+, -, *, /): "))
+operation = input("Choose the opertaion (+, -, *, /): ")
 match operation:
     case '+':
         result = num1 + num2
@@ -17,4 +17,6 @@ match operation:
         else:
             result = num1 + num2
             print(f"The result is {result}")
+    case _:
+        print("Invalid operation")
 
