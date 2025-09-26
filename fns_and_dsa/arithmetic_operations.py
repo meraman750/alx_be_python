@@ -12,4 +12,4 @@ def perform_operation(num1, num2, operation):
                 result = num1 / num2
         else:
             return "Error: Invalid operation"
-    return result
+        return result
