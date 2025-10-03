@@ -10,7 +10,7 @@ def convert_to_fahrenheit(celsius):
 try:
     temp = float(input("Enter the temperature to convert: "))
 except ValueError:
-    raise ValueError("Invlid temprature. Please enter a numeric value.")
+    raise ValueError("Invalid temperature. Please enter a numeric value.")
 char = input("Is this temperature in Celsius or Fahrenheit? (C/F): ").strip().upper()
 if char == "F":
     print(f"{temp}°F is {convert_to_celsius(temp)}°C")
